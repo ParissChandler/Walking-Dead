@@ -1,0 +1,214 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+header{
+  border: 1px solid clear;
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+body{
+  background: url(http://wallpapercave.com/wp/eT8LxiY.jpg);
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 75px;
+}
+.glenn,.abraham,.shane,.beth,.tyresse,.hershel,.andrea{
+  margin-top: 10px;
+}
+.glenn{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-left: 50px;
+  background: url(https://s.yimg.com/ny/api/res/1.2/MSVimARjdRjUI636Dq6Yxg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://l.yimg.com/cd/resizer/2.0/original/E3h_Y-Lh-ncFTj2et8rOOnL_2Rs);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abraham{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/f7/3f/3f/f73f3ff5e9c94a379452913c9106a3af.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shane{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  background: url(http://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/shane-walsh-lg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.beth{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  background: url(data:image/jpeg;base64,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);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tyresse{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  background: url(http://vignette4.wikia.nocookie.net/p__/images/7/74/The-walking-dead-tyreese.jpg/revision/latest?cb=20140224200555&path-prefix=protagonist);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hershel{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  background: url(http://wetpaint.com/wp-content/uploads/2013/12/w310_8a4a50653ac96f9c4a0ab8812be4ce0aTWDS4GalleryHershelPortrait2634V1-1380579630.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.andrea{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  background: url(http://media.comicbook.com/wp-content/uploads/2013/03/andrea-walking-dead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.GP,.AP,.SP,.BP,.TP,.HP,.AAP{
+  margin-top: 3px;
+}
+.GP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-left: 50px;
+  }
+.AP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+    }
+.SP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+}
+.BP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+}
+.TP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+}
+.HP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+}
+.AAP{
+  border: 1px solid black;
+  height: 200px;
+  width: 12%;
+  float: left;
+  margin-right: 20px;
+}
+h2{
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+span{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 65px;
+  color: red;
+  font-weight: normal;
+  font-size: 50px;
+}
+#middle{
+  border: 1px solid black;
+  height: 250px;
+  width: 70%;
+  float: left;
+  background: url(http://38.media.tumblr.com/tumblr_lvl74kpIyv1qecvyeo1_500.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.negan{
+  border: 1px solid black;
+  height: 250px;
+  width: 30%;
+  float: left;
+  background: url(https://68.media.tumblr.com/18c56b1edd4c39ad6bbcfeffabf61be2/tumblr_inline_o5c9n9ytDx1tzow6j_500.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#middle,.negan{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer{
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+  background: url(http://www.themindtrap.com/img/rooms/walking-dead-1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  clear: both;
+}
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 40px;
+  }
+  .negan{
+    display: none;
+  }
+  .GP,.AP,.SP,.BP,.TP,.HP,.AAP{
+    display: none;
+  }
+  .glenn,.abraham,.shane,.beth,.tyresse,.hershel,.andrea{
+    width: 100%;
+    height: 400px;
+  }
+  #middle{
+    width: 100%;
+  }
+}
